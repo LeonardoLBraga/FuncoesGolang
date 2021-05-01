@@ -31,3 +31,9 @@ func Test_Fatorial(t *testing.T) {
 		t.Error("Esperado 4! = 24")
 	}
 }
+
+func Test_CalculaValorAbsolutoSemIf(t *testing.T) {
+	if CalculaValorAbsolutoSemIf(-4) != 4 {
+		t.Error("Esperado |-4| = 4")
+	}
+}

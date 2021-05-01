@@ -1,5 +1,9 @@
 package controller
 
+import (
+	"math"
+)
+
 func Adicao(primeiroNumero, segundoNumero int) int {
 	return primeiroNumero + segundoNumero
 }
@@ -24,4 +28,17 @@ func Fatorial(numero int) int {
 		fatorial *= i
 	}
 	return fatorial
+}
+
+func CalculaValorAbsoluto(numero int) int {
+	if numero < 0 {
+		return -numero
+	}
+	return numero
+}
+
+func CalculaValorAbsolutoSemIf(numero float64) int {
+	numeroAoQuadrado := numero * numero
+	raiz := math.Sqrt(numeroAoQuadrado)
+	return int(raiz)
 }
