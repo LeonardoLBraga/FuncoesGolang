@@ -1,5 +1,7 @@
 # 🧠 Funções em Golang
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Este repositório contém exemplos e implementações de funções em Go (Golang), com o objetivo de estudar, praticar e demonstrar conceitos da linguagem Go de forma simples e modular.
 
 ## 📦 Estrutura
